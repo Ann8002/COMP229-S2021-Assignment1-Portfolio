@@ -1,0 +1,12 @@
+{
+  "name": "comp229-s2021-assignment1",
+  "version": "0.0.1",
+  "description": "COMP229-S2021-Assignment1",
+  "main": "index.js",
+  "author": "Sindhu Binil",
+  "license": "MIT",
+  "scripts": 
+  {
+    "start": "node index.js"
+  }
+}

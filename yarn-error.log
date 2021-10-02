@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\sbtke\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @types/jquerry --dev
+  C:\Program Files\nodejs\node.exe C:\Users\sbtke\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add morgon
 
 PATH: 
   C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\jEdit;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\sbtke\Scripts\;C:\Users\sbtke\;C:\Users\sbtke\AppData\Local\Microsoft\WindowsApps;C:\Users\sbtke\.dotnet\tools;C:\Users\sbtke\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sbtke\AppData\Roaming\npm;C:\Users[sbtke]\AppData\Roaming\npm\node_modules;C:\Program Files\nodejs;C:\Program Files\MongoDB\Server\5.0\bin\;
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2fjquerry: Not found
+  Error: https://registry.yarnpkg.com/morgon: Not found
       at Request.params.callback [as _callback] (C:\Users\sbtke\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66992:18)
       at Request.self.callback (C:\Users\sbtke\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140763:22)
       at Request.emit (node:events:394:28)
@@ -53,6 +53,7 @@ npm manifest:
       "@types/ejs": "^3.1.0",
       "@types/express": "^4.17.13",
       "@types/http-errors": "^1.8.1",
+      "@types/jquery": "^3.5.6",
       "@types/morgan": "^1.9.3",
       "@types/node": "^16.10.2"
     }
@@ -142,7 +143,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/@types/http-errors/-/http-errors-1.8.1.tgz#e81ad28a60bee0328c6d2384e029aec626f1ae67"
     integrity sha512-e+2rjEwK6KDaNOm5Aa9wNGgyS9oSZU/4pfSMMPYNOfjvFI0WVXm29+ITRFr6aKDvvKo7uU1jV68MW4ScsfDi7Q==
   
-  "@types/jquery@*":
+  "@types/jquery@*", "@types/jquery@^3.5.6":
     version "3.5.6"
     resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.5.6.tgz#97ac8e36dccd8ad8ed3f3f3b48933614d9fd8cf0"
     integrity sha512-SmgCQRzGPId4MZQKDj9Hqc6kSXFNWZFHpELkyK8AQhf8Zr6HKfCzFv9ZC1Fv3FyQttJZOlap3qYb12h61iZAIg==
